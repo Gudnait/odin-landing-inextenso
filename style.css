@@ -1,0 +1,46 @@
+/* To be used in all the document */
+* {
+    font-family: 'Roboto', Arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #1F2937;
+}
+
+.header a {
+    display: flex;
+}
+
+.logo {
+    display:flex;
+    height: 40px;
+    width: auto;
+    padding-left: 5%;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    padding-right: 5%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+
