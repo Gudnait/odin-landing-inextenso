@@ -110,7 +110,8 @@ body {
     border-radius: 8px;
     border: none;
     font-size: 18px;
-    align-self: flex-start;    
+    align-self: flex-start;
+    cursor: pointer;    
 }
 
 .s1-right {
@@ -130,7 +131,7 @@ body {
 .section-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #F9FAF8;
     width: 100%;
@@ -153,18 +154,18 @@ body {
 .s2-cuadros {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 5%;
     align-items: center;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 .s2-cuadros .elemento {
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 2%;
     margin: 0;
@@ -234,8 +235,70 @@ body {
     padding: 0;
 }
 
+/* SECTION 4 */
 
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 8% ;
+    padding: 2% 2%;
+    border-radius: 8px;
+}
 
+.s4-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+
+.s4-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.s4-left h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.s4-left p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+.s4-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.s4-right button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    white-space: nowrap;
+    cursor: pointer;
+}
 
 
 /* FOOTER */
